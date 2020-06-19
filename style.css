@@ -1,0 +1,215 @@
+html {
+  background-color: hsl(218,90%, 95%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 375px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  Font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 150px auto;
+  box-shadow: 0px 0px 40px 2px hsl(204, 43%, 90%);
+  border-radius: 8px;
+  background-color: white;
+}
+
+header {
+  margin-bottom: 10px;
+  padding: 25px;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  color: hsl(204, 43%, 97%);
+}
+
+.intro {
+  color: hsl(218, 22%, 67%);
+  width: 75%;
+}
+
+.main {
+  color: hsl(71, 73%, 54%);
+}
+
+.row-1 {
+  width: 43.5%;
+  position: absolute;
+  padding: 25px 0px 55px 65px;
+  background-color: hsl(179,55%, 55%);
+  color: hsl(204, 43%, 93%);
+  box-shadow: -4px 15px 25px 2px hsl(204, 43%, 90%);
+  border-bottom-left-radius: 8px;
+}
+
+.plan {
+  margin: auto 0;
+  text-align: center;
+  font-size: 16px;
+  float: right;
+  padding: 20px 150px 0px 0px;
+  color: hsl(204, 43%, 93%);
+}
+
+.row-1-intro {
+  color: hsl(204, 43%, 98%);
+  margin-bottom: 50px;
+}
+
+.row-2-intro {
+  color: hsl(204, 43%, 98%);
+  line-height: 1.5;
+}
+
+.row-2 {
+  width: 43.5%;
+  padding: 25px 0px 33px 50px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 380px;
+  background-color: hsl(179,55%, 75%);
+  color: hsl(204, 43%, 93%);
+  box-shadow: 8px 15px 25px 2px hsl(204, 43%, 90%);
+  border-bottom-right-radius: 8px;
+}
+
+.subscription {
+  padding: 0;
+  position: relative;
+}
+
+span {
+  font-size: 50px;
+  margin-top: 45px;
+  color: hsl(204, 43%, 98%);
+}
+
+.signup {
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+  padding: 15px 100px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px 25px 5px hsl(204, 43%, 75%);
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    width: 85%;
+    margin: 50px auto;
+    border-radius: 5px;
+    height: 775px;
+  }
+
+  header {
+    margin-bottom: 10px;
+    padding: 5px 25px 25px;
+  }
+
+  h1 {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  h2 {
+    color: hsl(204, 43%, 97%);
+    font-size: 18px;
+  }
+
+  .intro {
+    width: 100%;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .main {
+    font-size: 18px;
+  }
+
+  .row-1 {
+    width: 85%;
+    position: inherit;
+    padding:5px 25px 40px;
+    border-radius: 0;
+    margin: 0px auto;
+    background-color: hsl(179, 62%, 43%);
+    box-shadow: none;
+  }
+
+  .plan {
+    float: none;
+    padding: 0;
+    left: 10px;
+    position: relative;
+    bottom: 7px;
+    color: hsl(204, 43%, 93%);
+  }
+
+  .row-1-intro {
+    margin-bottom: 45px;
+    line-height: 0.5
+  }
+
+  .row-2-intro {
+    color: hsl(204, 43%, 98%);
+    line-height: 1.5;
+  }
+
+  .row-2 {
+    width: 85%;
+    padding: 15px 25px;
+    display: block;
+    position: inherit;
+    margin: 0 auto;
+    background-color: hsl(179,55%, 48%);
+    color: hsl(218, 22%, 67%);
+    box-shadow: none;
+    border-radius: 0px;
+  }
+
+  .subscription {
+    padding: 0;
+    position: inherit;
+  }
+
+  span {
+    font-size: 35px;
+    margin-top: 45px;
+  }
+
+  .signup {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    padding: 15px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px 25px 5px hsl(204, 43%, 55%);
+  }
+}
